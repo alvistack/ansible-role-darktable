@@ -14,5 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_zypper_repository:
+  - name: "graphics:darktable"
+    repo: "https://download.opensuse.org/repositories/graphics:/darktable/openSUSE_Leap_15.2"
+    state: "present"
+
 _zypper:
-  - { state: "latest", name: "MozillaFirefox" }
+  - { state: "latest", name: "darktable" }
