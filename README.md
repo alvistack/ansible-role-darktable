@@ -1,7 +1,7 @@
 # Ansible Role for Darktable
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-darktable.svg)](https://travis-ci.com/alvistack/ansible-role-darktable)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-darktable.svg)](https://github.com/alvistack/ansible-role-darktable)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-darktable.svg)](https://github.com/alvistack/ansible-role-darktable/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-darktable.svg)](https://github.com/alvistack/ansible-role-darktable/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.darktable-blue.svg)](https://galaxy.ansible.com/alvistack/darktable)
 
