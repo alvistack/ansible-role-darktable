@@ -15,5 +15,5 @@
 # limitations under the License.
 
 _yum:
-  - { state: "latest", name: "lensfun", enablerepo: "PowerTools" }
+  - { state: "latest", name: "lensfun", enablerepo: "powertools" }
   - { state: "latest", name: "darktable" }
