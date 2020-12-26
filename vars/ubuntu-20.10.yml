@@ -15,12 +15,12 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "https://download.opensuse.org/repositories/graphics:darktable/xUbuntu_20.04/Release.key"
+  - url: "https://download.opensuse.org/repositories/graphics:darktable/xUbuntu_20.10/Release.key"
     id: "3247B7519EDBEAB422E900A3040524A84C70D8B5"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/xUbuntu_20.04/ /"
+  - repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/xUbuntu_20.10/ /"
     state: "present"
 
 _apt:
