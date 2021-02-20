@@ -16,7 +16,7 @@
 
 _zypper_repository:
   - name: "graphics:darktable"
-    repo: "https://download.opensuse.org/repositories/graphics:/darktable/openSUSE_Leap_15.2"
+    repo: "http://download.opensuse.org/repositories/graphics:/darktable/openSUSE_Leap_15.2"
     state: "present"
 
 _zypper:
