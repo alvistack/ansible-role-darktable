@@ -14,14 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - url: "http://download.opensuse.org/repositories/graphics:darktable/xUbuntu_18.04/Release.key"
-    id: "3247B7519EDBEAB422E900A3040524A84C70D8B5"
-    state: "present"
+_apt_key: []
 
-_apt_repository:
-  - repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/xUbuntu_18.04 /"
-    state: "present"
+_apt_repository: []
 
 _apt:
   - { state: "latest", name: "darktable" }
