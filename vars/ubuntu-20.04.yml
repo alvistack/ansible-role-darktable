@@ -15,12 +15,14 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "http://download.opensuse.org/repositories/graphics:darktable/xUbuntu_20.04/Release.key"
+  - keyring: "/etc/apt/trusted.gpg.d/graphics_darktable.gpg"
+    url: "http://download.opensuse.org/repositories/graphics:darktable/xUbuntu_20.04/Release.key"
     id: "3247B7519EDBEAB422E900A3040524A84C70D8B5"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/xUbuntu_20.04 /"
+  - filename: "graphics:darktable"
+    repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/xUbuntu_20.04 /"
     state: "present"
 
 _apt:
