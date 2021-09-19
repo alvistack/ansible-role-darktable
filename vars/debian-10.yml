@@ -22,7 +22,7 @@ _apt_key:
 
 _apt_repository:
   - filename: "graphics:darktable"
-    repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/Debian_10 /"
+    repo: "deb http://download.opensuse.org/repositories/graphics:/darktable/Debian_10/ /"
     state: "present"
 
 _apt:
