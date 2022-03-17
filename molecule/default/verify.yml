@@ -19,7 +19,7 @@
   become: true
   tasks:
     - name: darktable --version
-      command: darktable --version
+      ansible.builtin.command: darktable --version
       register: result
       changed_when: false
       failed_when: "'are you running darktable as root' not in result.stdout"
