@@ -19,9 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: darktable --version
+    - name: flatpak info org.darktable.Darktable
       ansible.builtin.command:
-        cmd: darktable --version
+        cmd: flatpak info org.darktable.Darktable
       register: result
-      changed_when: false
-      failed_when: "'are you running darktable as root' not in result.stdout"
+      changed_when: result is not succeeded
